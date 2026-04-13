@@ -105,7 +105,24 @@
       .section-wrap{padding:64px 24px;}
       .about-grid,.skills-grid,.contact-grid{grid-template-columns:1fr;}
     }
-  </style>
+  
+#training{background:var(--bg);border-top:1px solid var(--border);}
+.training-list{display:flex;flex-direction:column;gap:1px;background:var(--border);border:1px solid var(--border);}
+.training-card{background:var(--bg);padding:28px;transition:background .2s;}
+.training-card:hover{background:var(--white);}
+.training-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;gap:16px;}
+.training-title{font-family:'DM Serif Display',serif;font-size:17px;color:var(--text);margin-bottom:4px;}
+.training-issuer{font-family:'DM Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:1px;}
+.training-year{font-family:'DM Mono',monospace;font-size:11px;color:var(--text-dim);letter-spacing:1px;flex-shrink:0;}
+.training-desc{font-size:14px;line-height:1.75;color:var(--text-mid);}
+.training-badge{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1px;padding:2px 8px;background:var(--surface);border:1px solid var(--accent);color:var(--accent);margin-left:10px;vertical-align:middle;}
+.training-link{display:inline-block;margin-top:14px;font-family:'DM Mono',monospace;font-size:10px;color:var(--text-dim);letter-spacing:1px;text-decoration:none;border-bottom:1px solid var(--border);padding-bottom:1px;transition:color .2s,border-color .2s;}
+.training-link:hover{color:var(--accent);border-color:var(--accent);}
+.training-card-link{text-decoration:none;color:inherit;display:block;}
+.training-card-link .training-card{cursor:pointer;}
+.training-card-link:hover .training-card{background:var(--white);}
+.training-card-link:hover .training-title{color:var(--accent);}
+</style>
 </head>
 <body>
 <nav>
@@ -242,7 +259,17 @@
       </div>
   </div>
 </section>
-<section id="contact">
+<section id="training">
+  <div class="section-wrap">
+    <div class="reveal">
+      <p class="section-label">Training</p>
+      <h2 class="section-title">Certifications</h2>
+    </div>
+    <div class="training-list">
+      <a class="training-card-link" href="https://www.credential.net/f22df94d-a957-4648-9ab2-7fc36402d674#acc.2qZuPkU5" target="_blank"><div class="training-card reveal"><div class="training-header"><div><p class="training-title">Tech for Jobs: Data Analytics Program <span class="training-badge">Certificate with Honors</span></p><p class="training-issuer">USAID & Correlation One</p></div><span class="training-year">2025</span></div><p class="training-desc">Completed 250 hours of training in data analytics including Python, SQL, data visualization, and statistical analysis. Built and presented real-world data projects with hands-on experience in EDA, hypothesis testing, and data-driven storytelling.</p></div></a><a class="training-card-link" href="https://www.credential.net/afb71172-6e76-4a64-b72b-1731e0777365?username=mousataisieralrashdan693558" target="_blank"><div class="training-card reveal"><div class="training-header"><div><p class="training-title">Data Science Training Program </p><p class="training-issuer">SHAI for AI Solutions</p></div><span class="training-year">2025</span></div><p class="training-desc">Completed 90 hours of hands-on training in Python, statistics, SQL, and machine learning. Developed supervised/unsupervised models and data pipelines applied to real-world projects in healthcare, business, and public sector domains.</p></div></a><a class="training-card-link" href="https://www.credential.net/555f17ae-f7f4-4358-b437-81a001112a35#acc.uT6Z8MfU" target="_blank"><div class="training-card reveal"><div class="training-header"><div><p class="training-title">Data Analytics & Business Intelligence Technology Pathway </p><p class="training-issuer">Al-Hussein Technical University (HTUX)</p></div><span class="training-year">2025</span></div><p class="training-desc">Mastered end-to-end analytics and BI techniques including probability, statistics, hypothesis testing, and data modeling. Developed proficiency in Python, Excel, Jupyter Notebooks, and Power BI.</p></div></a><a class="training-card-link" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=7A437CABAA950EAA7AAC94818EFB625D5DB517FF2412F8A94675D3854B2EA7A9" target="_blank"><div class="training-card reveal"><div class="training-header"><div><p class="training-title">OCI Generative AI Professional </p><p class="training-issuer">Oracle University</p></div><span class="training-year">2025</span></div><p class="training-desc">Deep understanding of Generative AI on Oracle Cloud including LLMs, prompt engineering, fine-tuning, and RAG-based chatbot development using LangChain. Covered model security, scalability, and deployment on OCI.</p></div></a>
+    </div>
+  </div>
+</section><section id="contact">
   <div class="section-wrap">
     <div class="reveal">
       <p class="section-label">Contact</p>

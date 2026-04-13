@@ -105,7 +105,24 @@
       .section-wrap{padding:64px 24px;}
       .about-grid,.skills-grid,.contact-grid{grid-template-columns:1fr;}
     }
-  </style>
+  
+#training{background:var(--bg);border-top:1px solid var(--border);}
+.training-list{display:flex;flex-direction:column;gap:1px;background:var(--border);border:1px solid var(--border);}
+.training-card{background:var(--bg);padding:28px;transition:background .2s;}
+.training-card:hover{background:var(--white);}
+.training-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;gap:16px;}
+.training-title{font-family:'DM Serif Display',serif;font-size:17px;color:var(--text);margin-bottom:4px;}
+.training-issuer{font-family:'DM Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:1px;}
+.training-year{font-family:'DM Mono',monospace;font-size:11px;color:var(--text-dim);letter-spacing:1px;flex-shrink:0;}
+.training-desc{font-size:14px;line-height:1.75;color:var(--text-mid);}
+.training-badge{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1px;padding:2px 8px;background:var(--surface);border:1px solid var(--accent);color:var(--accent);margin-left:10px;vertical-align:middle;}
+.training-link{display:inline-block;margin-top:14px;font-family:'DM Mono',monospace;font-size:10px;color:var(--text-dim);letter-spacing:1px;text-decoration:none;border-bottom:1px solid var(--border);padding-bottom:1px;transition:color .2s,border-color .2s;}
+.training-link:hover{color:var(--accent);border-color:var(--accent);}
+.training-card-link{text-decoration:none;color:inherit;display:block;}
+.training-card-link .training-card{cursor:pointer;}
+.training-card-link:hover .training-card{background:var(--white);}
+.training-card-link:hover .training-title{color:var(--accent);}
+</style>
 </head>
 <body>
 <nav>

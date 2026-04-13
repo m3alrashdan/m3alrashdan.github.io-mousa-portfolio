@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Tech for Jobs: Data Analytics Program",
+    "issuer": "USAID & Correlation One",
+    "year": "2025",
+    "badge": "Certificate with Honors",
+    "url": "https://www.credential.net/f22df94d-a957-4648-9ab2-7fc36402d674#acc.2qZuPkU5",
+    "desc": "Completed 250 hours of training in data analytics including Python, SQL, data visualization, and statistical analysis. Built and presented real-world data projects with hands-on experience in EDA, hypothesis testing, and data-driven storytelling."
+  },
+  {
+    "title": "Data Science Training Program",
+    "issuer": "SHAI for AI Solutions",
+    "year": "2025",
+    "badge": "",
+    "url": "https://www.credential.net/afb71172-6e76-4a64-b72b-1731e0777365?username=mousataisieralrashdan693558",
+    "desc": "Completed 90 hours of hands-on training in Python, statistics, SQL, and machine learning. Developed supervised/unsupervised models and data pipelines applied to real-world projects in healthcare, business, and public sector domains."
+  },
+  {
+    "title": "Data Analytics & Business Intelligence Technology Pathway",
+    "issuer": "Al-Hussein Technical University (HTUX)",
+    "year": "2025",
+    "badge": "",
+    "url": "https://www.credential.net/555f17ae-f7f4-4358-b437-81a001112a35#acc.uT6Z8MfU",
+    "desc": "Mastered end-to-end analytics and BI techniques including probability, statistics, hypothesis testing, and data modeling. Developed proficiency in Python, Excel, Jupyter Notebooks, and Power BI."
+  },
+  {
+    "title": "OCI Generative AI Professional",
+    "issuer": "Oracle University",
+    "year": "2025",
+    "badge": "",
+    "url": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7A437CABAA950EAA7AAC94818EFB625D5DB517FF2412F8A94675D3854B2EA7A9",
+    "desc": "Deep understanding of Generative AI on Oracle Cloud including LLMs, prompt engineering, fine-tuning, and RAG-based chatbot development using LangChain. Covered model security, scalability, and deployment on OCI."
+  }
+]

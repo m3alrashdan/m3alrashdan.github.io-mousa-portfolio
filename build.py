@@ -24,6 +24,7 @@ def read_template(filename):
 info     = load("info.json")
 skills   = load("skills.json")
 projects = load("projects.json")
+training = load("training.json")
 
 
 def build_hero():
@@ -126,12 +127,38 @@ def build_contact():
     )
 
 
+
+def build_training():
+    items_html = ""
+    for t in training:
+        badge = f'<span class="training-badge">{t["badge"]}</span>' if t["badge"] else ""
+        url = t.get("url", "")
+        tag_o = f'<a class="training-card-link" href="{url}" target="_blank">' if url else "<div>"
+        tag_c = "</a>" if url else "</div>"
+        items_html += (
+            tag_o +
+            '<div class="training-card reveal">' +
+            '<div class="training-header">' +
+            "<div>" +
+            f'<p class="training-title">{t["title"]} {badge}</p>' +
+            f'<p class="training-issuer">{t["issuer"]}</p>' +
+            "</div>" +
+            f'<span class="training-year">{t["year"]}</span>' +
+            "</div>" +
+            f'<p class="training-desc">{t["desc"]}</p>' +
+            "</div>" +
+            tag_c
+        )
+    tpl = read_template("training.html")
+    return tpl.replace("{training_items}", items_html)
+
 def build():
     content = (
         build_hero() +
         build_about() +
         build_skills() +
         build_projects() +
+        build_training() +
         build_contact()
     )
 
