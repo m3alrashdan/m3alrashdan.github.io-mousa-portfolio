@@ -1,0 +1,42 @@
+[
+  {
+    "group": "AI & Machine Learning",
+    "items": [
+      { "name": "Machine Learning" },
+      { "name": "Deep Learning" },
+      { "name": "PyTorch" },
+      { "name": "Scikit-learn" },
+      { "name": "LLM Integration" },
+      { "name": "Prompt Engineering" }
+    ]
+  },
+  {
+    "group": "Data Engineering",
+    "items": [
+      { "name": "Python" },
+      { "name": "SQL" },
+      { "name": "PostgreSQL" },
+      { "name": "Data Pipelines" },
+      { "name": "Data Visualization" },
+      { "name": "EDA & Statistics" }
+    ]
+  },
+  {
+    "group": "Development",
+    "items": [
+      { "name": "Git & GitHub" },
+      { "name": "Linux / Ubuntu" },
+      { "name": "Docker" }
+    ]
+  },
+  {
+    "group": "Soft Skills",
+    "items": [
+      { "name": "Teamwork" },
+      { "name": "Communication" },
+      { "name": "Critical Thinking" },
+      { "name": "Time Management" },
+      { "name": "Attention to Detail" }
+    ]
+  }
+]

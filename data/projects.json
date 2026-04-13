@@ -1,0 +1,71 @@
+[
+  {
+    "category": "Foundations",
+    "projects": [
+      {
+        "name": "Data Pipeline Engineering",
+        "desc": "Built an end-to-end data pipeline for loading, cleaning, and transforming datasets with validation and reproducibility.",
+        "tags": ["Python", "pandas", "Pipeline Design", "Data Cleaning"],
+        "repo": "https://github.com/LevelUp-Applied-AI/m2-l2-data-pipeline-m3alrashdan",
+        "coming_soon": false
+      },
+      {
+        "name": "PyTorch Workflow Implementation",
+        "desc": "Implemented a neural network workflow including data loading, training loop, and evaluation using PyTorch.",
+        "tags": ["PyTorch", "Tensors", "Training Loops", "Model Eval"],
+        "repo": "https://github.com/LevelUp-Applied-AI/m2-i2-pytorch-m3alrashdan",
+        "coming_soon": false
+      },
+      {
+        "name": "SQL Murder Mystery Analysis",
+        "desc": "Solved a complex investigation using SQL queries across relational databases to extract insights and identify hidden relationships.",
+        "tags": ["SQL", "Data Analysis", "Analytical Thinking"],
+        "repo": "https://github.com/m3alrashdan/SQL-Murder-Mystery",
+        "coming_soon": false
+      },
+      {
+        "name": "Exploratory Data Visualization",
+        "desc": "Created visualizations to explore trends, patterns, and anomalies in structured datasets using Python and matplotlib.",
+        "tags": ["Python", "matplotlib", "EDA", "Visualization"],
+        "repo": "https://github.com/m3alrashdan/m4-s2",
+        "coming_soon": false
+      }
+    ]
+  },
+  {
+    "category": "Deployment",
+    "projects": [
+      {
+        "name": "KPI Analytics Dashboard",
+        "desc": "Built an interactive dashboard to analyze business KPIs and generate actionable insights through data visualization.",
+        "tags": ["Dashboards", "Data Viz", "Business Analytics"],
+        "repo": "https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-m3alrashdan",
+        "coming_soon": false
+      }
+    ]
+  },
+  {
+    "category": "Machine Learning & NLP",
+    "projects": [
+      {
+        "name": "ML & NLP Projects",
+        "desc": "Machine learning and natural language processing projects will be added here as I progress through the program.",
+        "tags": [],
+        "repo": "",
+        "coming_soon": true
+      }
+    ]
+  },
+  {
+    "category": "Retrieval & Knowledge Graphs",
+    "projects": [
+      {
+        "name": "RAG Systems & Knowledge Graphs",
+        "desc": "Retrieval-Augmented Generation (RAG) systems and knowledge graph projects — coming as I advance through the program.",
+        "tags": [],
+        "repo": "",
+        "coming_soon": true
+      }
+    ]
+  }
+]

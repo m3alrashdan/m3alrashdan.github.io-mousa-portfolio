@@ -1,0 +1,26 @@
+{
+  "name": "MOUSA TAISIER AL-RASHDAN",
+  "title": "Applied AI | Data Engineering | Machine Learning",
+  "tagline": "Intelligent Systems Engineer",
+  "about": [
+    "I am an Intelligent Systems Engineer with hands-on experience in data analysis, machine learning, and deep learning systems. I completed a full data analytics training with Correlation One and I am currently advancing my applied AI engineering skills through the AI.SPIRE program.",
+    "I focus on building scalable data pipelines, analytical systems, and real-world machine learning solutions. I work with modern AI tools — including LLMs, prompt engineering, and AI-powered APIs — to accelerate development and build smarter applications."
+  ],
+  "stats": [
+    { "num": "5+", "label": "Projects" },
+    { "num": "2",  "label": "Programs" },
+    { "num": "AI", "label": "Focus" }
+  ],
+  "info_cards": [
+    { "label": "Status",   "value": "Graduate" },
+    { "label": "Program",  "value": "AI.SPIRE" },
+    { "label": "Training", "value": "Correlation One" },
+    { "label": "Location", "value": "Amman, Jordan" }
+  ],
+  "contact": {
+    "email":    "M02.rashdan@gmail.com",
+    "github":   "https://github.com/m3alrashdan",
+    "linkedin": "https://www.linkedin.com/in/mousa-al-rashdan-m33/"
+  },
+  "photo": "profile.jpg"
+}
